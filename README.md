@@ -13,7 +13,7 @@ Lee, Y. C., Jung, S. H., Shivakumar, M., Cha, S., Park. Y. W., … & Kim, D. (20
 
 ---
 
-## Descriptions
+## Description
 
 To generate polygenic risk score (PRS), we utilized the GWAS summary statistics from the Genetic Associations and Mechanisms in Oncology (GAME-ON) Network (https://epi.grants.cancer.gov/gameon/). The HNSCC, OPC, and OC cases were identified based on following ICD-10 codes: oral cavity (C02.0–C02.9, C03.0–C03.9, C04.0–C04.9 and C05.0–C06.9) and oropharynx (C01.9, C02.4 and C09.0–C10.9). The GWASs (HNSCC [5,974 cases and 4,012 controls], OPC [2,617 cases and 4,012 controls], and OC [2,958 cases and 4,012 controls]). The GWASs were performed using PLINK 1.90 with sex, age, 10 PCs, and genotyping batch as covariates. The genotype data for the oral and pharyngeal OncoArray study can be downloaded from the database of Genotypes and Phenotypes (dbGaP) under accession phs001202.v1.p1. Of note, the GWASs did not include the additional external controls (2,476 shared controls [1,453 from the EPIC study and 1,023 from the Toronto study]) beyond the GAME-ON data used by Lesseur, Corina, et al. [1] in their GWAS analysis.
 
