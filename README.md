@@ -18,5 +18,5 @@ To generate polygenic risk score (PRS), we utilized the GWAS summary statistics 
 
 We constructed PRSs for HNSCC, OPC, and OC by using a Bayesian polygenic prediction method, PRS-CS, which infers the posterior mean effect size of each variant using the linkage disequilibrium (LD) reference panel and GWAS summary. The 1000G Project phase 3 EUR data was used to be the external LD reference panel. The posterior SNP effect sizes in PRS-CS were inferred from GAME-ON summary statistics, with default settings, and automatic estimation of the global shrinkage parameter (PRS-CS-auto). The individual PRSs were computed from beta coefficients as the weighted sum of the risk alleles by applying PLINK version 1.90 with the –score command.
 
-Reference
-*Lee, Y. C., *Jung, S. H., Shivakumar, M., Cha, S., Park. Y. W., … & Kim, D. (2024) Polygenic risk score-based phenome-wide association study of head and neck cancer across two large biobanks. 
+### Reference
+*Lee, Y. C., *Jung, S. H., Shivakumar, M., Cha, S., Park. Y. W., … & Kim, D. (2024) Polygenic risk score-based phenome-wide association study of head and neck cancer across two large biobanks.
