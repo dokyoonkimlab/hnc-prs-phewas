@@ -2,13 +2,13 @@
 Polygenic risk score models for head and neck squamous cell carcinoma
 
 Head and neck squamous cell carcinoma - 972,182 variants
-> [GAME-ON_HNC-all_PRSCS_auto.zip]
+> [GAME-ON_HNC-all_PRSCS_auto.zip](https://github.com/dokyoonkimlab/hnc-prs-phewas/blob/main/prs-model/GAME-ON_HNC-all_PRSCS_auto.zip)
 
 Oral cavity cancer - 972,182 variants
-> GAME-ON_HNC-OC_PRSCS_auto.zip
+> [GAME-ON_HNC-OC_PRSCS_auto.zip](https://github.com/dokyoonkimlab/hnc-prs-phewas/blob/main/prs-model/GAME-ON_HNC-OC_PRSCS_auto.zip)
 
 Oropharynx cancer - 972,182 variants
-> GAME-ON_HNC-OPC_PRSCS_auto.zip
+> [GAME-ON_HNC-OPC_PRSCS_auto.zip](https://github.com/dokyoonkimlab/hnc-prs-phewas/blob/main/prs-model/GAME-ON_HNC-OPC_PRSCS_auto.zip)
 
 ---
 
