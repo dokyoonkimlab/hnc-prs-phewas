@@ -1,5 +1,6 @@
 # hnc-prs-phewas
-Polygenic risk score models for head and neck squamous cell carcinoma and its subtypes
+#### Polygenic risk score models for head and neck squamous cell carcinoma and its subtypes
+Lee, Y. C., Jung, S. H., Shivakumar, M., Cha, S., Park. Y. W., … & Kim, D. (2024) Polygenic risk score-based phenome-wide association study of head and neck cancer across two large biobanks.
 
 ### Head and neck squamous cell carcinoma - 972,182 variants
 > [GAME-ON_HNC-all_PRSCS_auto.zip](https://github.com/dokyoonkimlab/hnc-prs-phewas/blob/main/prs-model/GAME-ON_HNC-all_PRSCS_auto.zip)
@@ -19,8 +20,6 @@ To generate polygenic risk score (PRS), we utilized the GWAS summary statistics 
 We constructed PRSs for HNSCC, OPC, and OC by using a Bayesian polygenic prediction method, PRS-CS [2], which infers the posterior mean effect size of each variant using the linkage disequilibrium (LD) reference panel and GWAS summary. The 1000G Project phase 3 EUR data was used to be the external LD reference panel. The posterior SNP effect sizes in PRS-CS were inferred from GAME-ON summary statistics, with default settings, and automatic estimation of the global shrinkage parameter (PRS-CS-auto). The individual PRSs were computed from beta coefficients as the weighted sum of the risk alleles by applying PLINK version 1.90 with the –score command [3].
 
 ### Reference
-Lee, Y. C., Jung, S. H., Shivakumar, M., Cha, S., Park. Y. W., … & Kim, D. (2024) Polygenic risk score-based phenome-wide association study of head and neck cancer across two large biobanks.
-
-[1] Lesseur C, Diergaarde B, Olshan AF, Wünsch-Filho V, Ness AR, Liu G, et al. Genome-wide association analyses identify new susceptibility loci for oral cavity and pharyngeal cancer. Nat Genet. 2016;48:1544–50.
-[2] Ge T, Chen CY, Ni Y, Feng YCA, Smoller JW. Polygenic prediction via Bayesian regression and continuous shrinkage priors. Nat Commun. 2019;10:1776.
-[3] Chang CC, Chow CC, Tellier LC, Vattikuti S, Purcell SM, Lee JJ. Second-generation PLINK: rising to the challenge of larger and richer datasets. GigaScience. 2015;4:7.
+1. Lesseur C, Diergaarde B, Olshan AF, Wünsch-Filho V, Ness AR, Liu G, et al. Genome-wide association analyses identify new susceptibility loci for oral cavity and pharyngeal cancer. Nat Genet. 2016;48:1544–50.
+2. Ge T, Chen CY, Ni Y, Feng YCA, Smoller JW. Polygenic prediction via Bayesian regression and continuous shrinkage priors. Nat Commun. 2019;10:1776.
+3. Chang CC, Chow CC, Tellier LC, Vattikuti S, Purcell SM, Lee JJ. Second-generation PLINK: rising to the challenge of larger and richer datasets. GigaScience. 2015;4:7.
